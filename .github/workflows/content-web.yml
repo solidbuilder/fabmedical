@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Checkout the repo
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
